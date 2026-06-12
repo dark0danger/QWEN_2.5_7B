@@ -1,6 +1,6 @@
 
-*Hint Request*
-Use this payload when you want the AI to provide a short, guiding hint without revealing the code.
+## *Hint Request*
+## Use this payload when you want the AI to provide a short, guiding hint without revealing the code.
 {
   "problem": "A watermelon can be divided into two even parts. Given an integer w (1 <= w <= 100), determine if it is possible to divide the watermelon in such a way.",
   "rating": "800",
@@ -8,8 +8,8 @@ Use this payload when you want the AI to provide a short, guiding hint without r
   "mode": "hint"
 }
 
-*Full Solution Request*
-Use this payload when you want the AI to generate the complete Python solution.
+## *Full Solution Request*
+## Use this payload when you want the AI to generate the complete Python solution.
 {
   "problem": "A watermelon can be divided into two even parts. Given an integer w (1 <= w <= 100), determine if it is possible to divide the watermelon in such a way.",
   "rating": "800",
@@ -17,8 +17,8 @@ Use this payload when you want the AI to generate the complete Python solution.
   "mode": "solution"
 }
 
-*Raw Input Format (Bypass Backend Formatting)*
-Use this payload if the orchestrator or frontend has already built the exact prompt string and you want to pass it directly to the model.
+## *Raw Input Format (Bypass Backend Formatting)*
+## Use this payload if the orchestrator or frontend has already built the exact prompt string and you want to pass it directly to the model.
 {
   "inputs": "Instruction: You are an expert programmer. Solve the following Codeforces problem in Python.\nDifficulty Rating: 800\nTopics: math\n\nProblem:\nA watermelon can be divided into two even parts. Given an integer w (1 <= w <= 100), determine if it is possible to divide the watermelon in such a way.\n\nSolution:\n"
 }
