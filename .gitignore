@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+checkpoint-*/
+
+# Deep learning weights & data logs
+*.safetensors
+*.bin
+*.pt
+logs/
