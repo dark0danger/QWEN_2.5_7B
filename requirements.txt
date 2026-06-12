@@ -1,0 +1,9 @@
+flask
+pyngrok
+torch
+transformers
+peft
+accelerate
+bitsandbytes
+unsloth
+huggingface_hub
