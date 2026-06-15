@@ -1,24 +1,25 @@
 
-## *Hint Request*
-## Use this payload when you want the AI to provide a short, guiding hint without revealing the code.
+## *Triggering a Hint*
 {
-  "problem": "A watermelon can be divided into two even parts. Given an integer w (1 <= w <= 100), determine if it is possible to divide the watermelon in such a way.",
+  "problem": "Given an integer n, find the sum of all numbers from 1 to n.",
   "rating": "800",
-  "topics": "math, brute force",
+  "topics": "math",
   "mode": "hint"
 }
 
 ## *Full Solution Request*
-## Use this payload when you want the AI to generate the complete Python solution.
 {
-  "problem": "A watermelon can be divided into two even parts. Given an integer w (1 <= w <= 100), determine if it is possible to divide the watermelon in such a way.",
+"problem": "Given an integer n, find the sum of all numbers from 1 to n.",
   "rating": "800",
-  "topics": "math, brute force",
+  "topics": "math",
   "mode": "solution"
 }
 
-## *Raw Input Format (Bypass Backend Formatting)*
-## Use this payload if the orchestrator or frontend has already built the exact prompt string and you want to pass it directly to the model.
+## *Chat*
 {
-  "inputs": "Instruction: You are an expert programmer. Solve the following Codeforces problem in Python.\nDifficulty Rating: 800\nTopics: math\n\nProblem:\nA watermelon can be divided into two even parts. Given an integer w (1 <= w <= 100), determine if it is possible to divide the watermelon in such a way.\n\nSolution:\n"
+"messages": [
+    {"role": "user", "content": "I am stuck on understanding recursion."},
+    {"role": "assistant", "content": "Recursion is when a function calls itself. What part is confusing you?"},
+    {"role": "user", "content": "How do I know when to stop it?"}
+  ]
 }
